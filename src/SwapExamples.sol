@@ -132,7 +132,7 @@ contract SwapExamples {
                     USDC,
                     uint24(3000),
                     WETH9
-                ),
+                ), // Notice , Path needs to reversed for output
                 recipient: msg.sender,
                 deadline: block.timestamp,
                 amountOut: amountOut,
